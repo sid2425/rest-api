@@ -1,0 +1,41 @@
+GET http://localhost:5000/list
+
+###
+
+GET http://localhost:5000/list/609b8770ab9d28ea5eae81bc
+
+### 
+
+POST http://localhost:5000/list
+Content-Type: application/json
+
+{
+    "name":"zsffd",
+    "address":"fgff",
+    "city":"gfgfddg",
+    "state":"gfggf",
+    "country":"gffdg",
+    "pincode":123456789,
+    "phonenumber":1234569079048,
+    "email":"xyz@effgmain.com"
+}
+
+### 
+DELETE http://localhost:5000/list/609b862761e341c925c78472
+
+###
+
+PUT http://localhost:5000/list/609b862761e341c925c78472
+Content-Type: application/json
+
+{
+    "name":"Rishi",
+    "address":"Tirupati",
+    "city":"Chittor",
+    "state":"AP",
+    "country":"India",
+    "pincode":500082,
+    "phonenumber":12345678,
+    "email":"xyz@domain.com"
+}
+
